@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "432788200776",
+    "firebase_url": "https://trofi-d9fff.firebaseio.com",
+    "project_id": "trofi-d9fff",
+    "storage_bucket": "trofi-d9fff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432788200776:android:0dc804d960177f8fe9a77d",
+        "android_client_info": {
+          "package_name": "com.keyur.trofi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "432788200776-mdkv945ro7oq0bo7uq34e5uimgg3pjc5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWi9Q6BWwLMeQ5EbmtdGVetgN1sEjxhnY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "432788200776-mdkv945ro7oq0bo7uq34e5uimgg3pjc5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

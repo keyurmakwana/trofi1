@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:background="@drawable/header_background"
+    android:paddingLeft="20dp">
+
+    <TextView
+        android:id="@+id/menu_slogan"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:text="Love for food"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/kalam_light"/>
+
+    <ImageView
+        android:layout_above="@id/menu_slogan"
+        android:layout_height="70dp"
+        android:layout_width="70dp"
+        android:src="@drawable/logo_icon" />
+
+</RelativeLayout>

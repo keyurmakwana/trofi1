@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/home"
+            android:id="@+id/nav_home"
+            android:title="Home" />
+        <item
+            android:icon="@drawable/search1"
+            android:id="@+id/nav_search"
+            android:title="Search" />
+        <item
+            android:icon="@drawable/category"
+            android:id="@+id/nav_all_categories"
+            android:title="All category of food" />
+    </group>
+
+    <item android:title="Most delicious">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:icon="@drawable/cheese"
+                    android:id="@+id/nav_cheese"
+                    android:title="Made by Cheese" />
+                <item
+                    android:icon="@drawable/paneer"
+                    android:id="@+id/nav_paneer"
+                    android:title="Made by Paneer" />
+                <item
+                    android:icon="@drawable/no_garlic"
+                    android:id="@+id/nav_no_garlic"
+                    android:title="Made with no garlic"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Support Us">
+        <menu>
+            <group android:checkableBehavior="none">
+                <item
+                    android:icon="@drawable/share"
+                    android:id="@+id/nav_share"
+                    android:title="Share me" />
+                <item
+                    android:icon="@drawable/rate_us"
+                    android:id="@+id/nav_rate_us"
+                    android:title="Rate Us" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Thank Message">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:icon="@drawable/thank_you"
+                    android:id="@+id/nav_thank_you"
+                    android:title="Thank You Message" />
+            </group>
+        </menu>
+    </item>
+</menu>
